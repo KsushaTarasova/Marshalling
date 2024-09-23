@@ -31,7 +31,6 @@ public class BookXMLHandler extends DefaultHandler {
     public void endElement(String uri, String localName, String qName) {
         if (qName.equalsIgnoreCase("catalog")) {
             System.out.println("Done with catalog");
-            System.out.println(myCatalog.toString());
         } else if (qName.equalsIgnoreCase("book")) {
             myCatalog.addBook(book);
             System.out.println(book);
