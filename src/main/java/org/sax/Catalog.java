@@ -17,6 +17,10 @@ public class Catalog {
         this.books = books;
     }
 
+    public void addBook(Book book){
+        this.books.add(book);
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
