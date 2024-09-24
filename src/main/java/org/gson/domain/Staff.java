@@ -1,17 +1,22 @@
 package org.gson.domain;
 
+import com.google.gson.annotations.Expose;
+import org.jaxb.model.ExcludedField;
+
 import java.math.BigDecimal;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-public class Stuff {
+public class Staff {
     private String name;
     private int age;
+    @ExcludedField
     private String[] position;
     private List<String> skills;
     private Map<String, BigDecimal> salary;
 
-    public Stuff(String name, int age, String[] position,
+    public Staff(String name, int age, String[] position,
                  List<String> skills, Map<String, BigDecimal> salary) {
         this.name = name;
         this.age = age;
@@ -20,7 +25,7 @@ public class Stuff {
         this.salary = salary;
     }
 
-    public Stuff() {
+    public Staff() {
     }
 
     public String getName() {
@@ -61,5 +66,16 @@ public class Stuff {
 
     public void setSalary(Map<String, BigDecimal> salary) {
         this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Staff{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", position=" + Arrays.toString(position) +
+                ", skills=" + skills +
+                ", salary=" + salary +
+                '}';
     }
 }
