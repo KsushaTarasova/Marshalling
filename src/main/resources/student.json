@@ -1,1 +1,42 @@
-{"name":"oleg","age":35}
+[
+  {
+    "name": "Oleg",
+    "age": 35,
+    "position": [
+      "Founder",
+      "SEO",
+      "coder"
+    ],
+    "skills": [
+      "java",
+      "python",
+      "node",
+      "kotlin"
+    ],
+    "salary": {
+      "2018": 14000,
+      "2012": 12000,
+      "2010": 10000
+    }
+  },
+  {
+    "name": "Natasha",
+    "age": 27,
+    "position": [
+      "Founder",
+      "SEO",
+      "coder"
+    ],
+    "skills": [
+      "java",
+      "python",
+      "node",
+      "kotlin"
+    ],
+    "salary": {
+      "2018": 14000,
+      "2012": 12000,
+      "2010": 10000
+    }
+  }
+]

@@ -11,7 +11,7 @@ import java.util.Map;
 public class Staff {
     private String name;
     private int age;
-    @ExcludedField
+    //@ExcludedField
     private String[] position;
     private List<String> skills;
     private Map<String, BigDecimal> salary;

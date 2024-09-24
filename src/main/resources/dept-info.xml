@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<department>
-    <deptNo>D01</deptNo>
-    <deptName>ACCOUNTING</deptName>
-    <location>NEW YORK</location>
-    <employees>
-        <employee>
-            <empNo>E01</empNo>
-            <empName>Tom</empName>
-        </employee>
-        <employee>
-            <empNo>E02</empNo>
-            <empName>Mary</empName>
-            <managerNo>E01</managerNo>
-        </employee>
-        <employee>
-            <empNo>E03</empNo>
-            <empName>John</empName>
-        </employee>
-    </employees>
-</department>
+<organisation>
+    <name>Org</name>
+    <departments>
+        <department>
+            <deptNo>D01</deptNo>
+            <deptName>ACCOUNTING</deptName>
+            <location>NEW YORK</location>
+            <employees>
+                <employee>
+                    <empNo>E01</empNo>
+                    <empName>Tom</empName>
+                </employee>
+                <employee>
+                    <empNo>E02</empNo>
+                    <empName>Mary</empName>
+                    <managerNo>E01</managerNo>
+                </employee>
+                <employee>
+                    <empNo>E03</empNo>
+                    <empName>John</empName>
+                </employee>
+            </employees>
+        </department>
+        <department>
+            <deptNo>D02</deptNo>
+            <deptName>ABC</deptName>
+            <location>Gomel</location>
+            <employees>
+                <employee>
+                    <empNo>E04</empNo>
+                    <empName>Bob</empName>
+                </employee>
+                <employee>
+                    <empNo>E05</empNo>
+                    <empName>Kate</empName>
+                    <managerNo>E04</managerNo>
+                </employee>
+                <employee>
+                    <empNo>E63</empNo>
+                    <empName>Alice</empName>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+</organisation>
