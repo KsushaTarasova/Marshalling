@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String path = new File("D:\\BSUIR\\5 sem\\СТРweb-пр\\Marshalling\\src\\main\\resources\\books.xml")
+        String path = new File("src\\main\\resources\\books.xml")
                 .getAbsolutePath();
         try {
             SAXParserFactory factory = SAXParserFactory.newInstance();
