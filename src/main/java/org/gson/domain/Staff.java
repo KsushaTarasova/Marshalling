@@ -1,8 +1,5 @@
 package org.gson.domain;
 
-import com.google.gson.annotations.Expose;
-import org.jaxb.model.ExcludedField;
-
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;

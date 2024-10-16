@@ -1,4 +1,4 @@
-package org.jaxb.model;
+package org.gson.domain;
 
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
